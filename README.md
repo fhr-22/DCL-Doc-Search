@@ -1,15 +1,16 @@
 # DCL - Document Search Tool
 
-[Demo](https://ww.google.com)
+[Demo](https://fhr-22.github.io/DCL-Doc-Search/)
 
-Submission for DETS Coding Leage (Tier 2) : Web app for searching/filtering document details from a pre-made `.json` list.
+**Submission for DETS Coding Leage (Tier 2) - by Farhan R. (DCSE, 1st Year)**
 
-**by Farhan R. (DCSE, 1st Year)**
+Web app for searching/filtering document details from a pre-made `.json` list.
+
 
 ### Features
 
-- Search in titles and descriptions, with support for regex
-- Filter by date range and document type
+- Search in title / description, with support for regex
+- Filter by date range / document type
 - Previews for supported document types
 
 ### Document List Format
@@ -29,6 +30,8 @@ Submission for DETS Coding Leage (Tier 2) : Web app for searching/filtering docu
 
 **Date format:** YYYY-MM-DD
 
+***
 
-Built using [React]() and [AutoAnimate](). 
+
+Built using [React](https://github.com/facebook/react) and [AutoAnimate](https://github.com/formkit/auto-animate). 
 
