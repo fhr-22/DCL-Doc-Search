@@ -13,74 +13,74 @@ const defaultFilter = {
 // Example list shown in Details popup
 const exampleList = `[
  {
-  "title": "Lion Roaring",
-  "desc": "A powerful lion roars in the savannah",
-  "date": "2022-02-01",
-  "category": "video",
-  "path": "https://i.imgur.com/ZigXHzX.mp4"
+  "title": "Relaxing Cat",
+  "desc": "Cat with closed eyes sitting illuminated by bright sunlight.",
+  "date": "2022-02-21",
+  "category": "image",
+  "path": "https://i.redd.it/kllot4v0nlfa1.jpg"
  },
  {
-  "title": "Cheetah Running",
-  "desc": "A cheetah sprints across the grasslands",
-  "date": "2022-01-15",
+  "title": "Hidden Cat",
+  "desc": "Cat sleeping in a flower pot, hidden by a plant",
+  "date": "2015-01-15",
+  "category": "image",
+  "path": "https://i.redd.it/h1evtu2ycl9a1.jpg"
+ },
+ {
+    "title": "Pest Control Cat",
+    "desc": "Cat with a job and an official ID card. Helps with hunting down pests and rodents.",
+    "date": "2018-05-10",
+    "category": "image",
+    "path": "https://i.redd.it/iadblydu2fr91.jpg"
+   },
+ {
+  "title": "Blue Flowers",
+  "desc": "A stalk of blue flowers.",
+  "date": "2015-01-15",
+  "category": "image",
+  "path": "https://source.unsplash.com/LA3CPWy6Vx8/650x450"
+ }, 
+ {
+  "title": "Cat Feeding System",
+  "desc": "Cat food dispenser that requires the cat to fetch ping pong balls.",
+  "date": "2010-01-20",
+  "category": "video",
+  "path": "https://i.imgur.com/YV8DNtr.mp4"
+ },
+ {
+  "title": "Startled Cat",
+  "desc": "Brown cat confused by a flower dropped on it's face.",
+  "date": "2022-02-05",
+  "category": "video",
+  "path": "https://i.imgur.com/fqd9uUj.mp4"
+ },
+ {
+  "title": "Curious Kitten",
+  "desc": "Kitten trying to play with a cherry.",
+  "date": "2022-01-25",
   "category": "video",
   "path": "https://i.imgur.com/KWvtdg0.mp4"
  },
  {
-  "title": "Elephant Family",
-  "desc": "A family of elephants plays in the water",
-  "date": "2022-02-10",
-  "category": "image",
-  "path": "https://i.imgur.com/Uschheg.jpeg"
- },
- {
-  "title": "Gorilla Portrait",
-  "desc": "A majestic gorilla poses for the camera",
-  "date": "2022-01-20",
-  "category": "image",
-  "path": "https://i.imgur.com/Uschheg.jpeg"
- },
- {
-  "title": "Tiger Close-up",
-  "desc": "A close-up of a tiger's face",
-  "date": "2022-02-05",
-  "category": "image",
-  "path": "https://i.imgur.com/Uschheg.jpeg"
- },
- {
-  "title": "Zebra Herd",
-  "desc": "A large herd of zebras graze in the grasslands",
-  "date": "2022-01-25",
-  "category": "image",
-  "path": "https://i.imgur.com/Uschheg.jpeg"
- },
- {
-  "title": "Monkey Chatter",
-  "desc": "A group of monkeys chatter in the trees",
-  "date": "2022-02-08",
-  "category": "pdf",
-  "path": "https://www.africau.edu/images/default/sample.pdf"
- },
- {
-  "title": "Bird Song",
-  "desc": "The melodic song of a bird",
-  "date": "2022-01-30",
+  "title": "Bird Song - 1",
+  "desc": "Sound clip of an Asian Koel singing.",
+  "date": "2012-02-20",
   "category": "audio",
-  "path": "https://example.com/audio/bird-song.mp3"
+  "path": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Asian_Koel.wav"
  },
  {
-  "title": "Kangaroo Hopping",
-  "desc": "A kangaroo hops through the outback",
-  "date": "2022-02-03",
-  "category": "video",
-  "path": "https://example.com/videos/kangaroo-hopping.mp4"
+  "title": "Bird Song - 2",
+  "desc": "Sound clip of sparrows singing.",
+  "date": "2005-01-30",
+  "category": "audio",
+  "path": "https://upload.wikimedia.org/wikipedia/commons/0/01/House_Sparrow.ogg"
  },
  {
-  "title": "Octopus Underwater",
-  "desc": "An octopus swims in the depths of the ocean",
-  "date": "2022-01-18",
-  "category": "video",
-  "path": "https://example.com/videos/octopus-underwater.mp4"
+  "title": "WikiMedia Resources",
+  "desc": "Document showcasing the different types of data available on Wikimedia that can be used for research purposes.",
+  "date": "2018-10-01",
+  "category": "pdf",
+  "path": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Wikimedia_Public_Research_Resources.pdf"
  }
 ]`
 

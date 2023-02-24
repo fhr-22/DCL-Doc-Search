@@ -9,10 +9,8 @@ const PreviewBox = ({ doc }) => {
 
     // stop showing error status and expand, when new document is selected 
     useEffect(() => {
-        if (doc) {
-            setLoadError(false);
-            setExpanded(true);
-        }
+        setLoadError(false);
+        setExpanded(true);
     }, [doc])
 
     // convert date object to string with desired format
@@ -86,7 +84,7 @@ function FileViewer({ type, path, onError }) {
     switch (type) {
         case 'image':
             return (
-                <img src={path} onError={onError} />
+                <img src={path} onError={onError} alt={""} />
             );
         case 'video':
             return (
